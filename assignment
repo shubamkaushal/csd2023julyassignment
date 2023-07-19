@@ -1,0 +1,12 @@
+first activity
+
+nodejs express 35 webserver
+
+const express = require('express')
+const express = express()
+
+app.get('/', function (req, res ){
+    res.send ('hello world')
+})
+
+app.listen(3000)
